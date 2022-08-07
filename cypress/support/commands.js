@@ -23,3 +23,12 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+Cypress.Commands.add('search',(country,city,model,pickup,dropoff)=>{
+    //cy.visit('http://qalab.pl.tivixlabs.com/')
+    cy.get('#country').select(country)
+    cy.get('#city').select(city)
+    cy.get('[type="text"]').type(model)
+    cy.get('#pickup').type(pickup)
+    cy.get('#dropoff').type(dropoff)
+    cy.get('button[type="submit"]').click()
+})
