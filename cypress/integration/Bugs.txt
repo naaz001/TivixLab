@@ -1,0 +1,19 @@
+Bug Name- Spelling Error
+Bug Description - Spelling Error of Country-Germany
+Area Path-Home Page => Country
+
+Bug Name- City Suggestion
+Bug Description- After user select a particular Country application suggests City of All listed Countries
+Expected Results-application should suggest city names from only selected Country
+Area Path-Home Page=> City
+
+Bug Name-City Selection
+Bug Description-even after User select City which does not belong to particular country application shows Results
+Expected Results- application should display Alert text
+Area Path-Home Page=> City
+
+Bug Name- Car Model Details
+Bug Description-application does not takes into consideration model details provided by the user and does not sort results accordingly
+Expected Results- Search results should be sorted as per model details provided
+Area Path - Home Page=> Model
+                
